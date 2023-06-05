@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn Coding with Games</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Learn Coding with Games</h1>
+    <div id="levelContainer">
+        <h2>Level <span id="level">1</span></h2>
+        <div id="starContainer">
+            <span id="stars">0</span> Stars
+        </div>
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
+        </div>
+    </div>
+    <div id="challengeContainer">
+        <h3>Challenge 1</h3>
+        <p id="challengeDescription">Write a function that adds two numbers and returns the sum.</p>
+        <textarea id="codeInput"></textarea>
+        <button onclick="checkCode()">Submit</button>
+        <p id="result"></p>
+        <button onclick="nextChallenge()">Next Challenge</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
